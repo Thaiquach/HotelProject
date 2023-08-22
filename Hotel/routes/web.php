@@ -30,5 +30,5 @@ Route::resources([
 ]);
 
 Route::resources([
-    'books' => BookController::class
+    'books' => BookingController::class
 ]);
