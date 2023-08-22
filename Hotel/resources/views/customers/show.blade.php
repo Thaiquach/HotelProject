@@ -1,4 +1,4 @@
-{{$customers->id}}<br>
-{{$customers->name}}<br>
-{{$customers->email}}<br>
-{{$customers->phone}}
+{{$customer->id}}<br>
+{{$customer->name}}<br>
+{{$customer->email}}<br>
+{{$customer->phone}}

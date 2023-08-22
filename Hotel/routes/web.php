@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\BookingController;
+use App\Http\Controllers\CustomerController;
+use App\Http\Controllers\HotelController;
+use App\Http\Controllers\RoomController;
 use Illuminate\Support\Facades\Route;
 
 /*

@@ -1,4 +1,4 @@
-{{$hotel->id}}<br>
-{{$hotel->name}}<br>
-{{$hotel->address}}<br>
-{{$hotel->phone}}
+{{$hotels->id}}<br>
+{{$hotels->name}}<br>
+{{$hotels->address}}<br>
+{{$hotels->phone}}

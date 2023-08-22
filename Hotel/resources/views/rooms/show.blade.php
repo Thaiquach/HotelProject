@@ -1,4 +1,4 @@
-{{$rooms->id}}<br>
-{{$rooms->number}}<br>
-{{$rooms->type}}<br>
-{{$rooms->price}}
+{{$room->id}}<br>
+{{$room->number}}<br>
+{{$room->type}}<br>
+{{$room->price}}
