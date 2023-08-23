@@ -11,6 +11,6 @@ class Customer extends Model
     protected $fillable = ['name', 'email', 'phone'];
     public function book()
     {
-        return $this->belongsTo(Booking::class);
+        return $this->belongsToMany(Booking::class);
     }
 }

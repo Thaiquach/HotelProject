@@ -16,6 +16,6 @@ class Hotel extends Model
     }
     public function book()
     {
-        return $this->belongsTo(Booking::class);
+        return $this->belongsToMany(Booking::class);
     }
 }
